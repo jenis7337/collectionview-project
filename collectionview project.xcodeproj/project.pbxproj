@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,9 @@
 		49B9CE7429C04734004FD11D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B9CE7229C04734004FD11D /* Main.storyboard */; };
 		49B9CE7629C04735004FD11D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B9CE7529C04735004FD11D /* Assets.xcassets */; };
 		49B9CE7929C04735004FD11D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B9CE7729C04735004FD11D /* LaunchScreen.storyboard */; };
+		49B9CE8129C04C50004FD11D /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B9CE8029C04C50004FD11D /* MyCollectionViewCell.swift */; };
+		49B9CE8329C05D9C004FD11D /* myCollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B9CE8229C05D9C004FD11D /* myCollectionViewCell2.swift */; };
+		49B9CE8529C06181004FD11D /* myCollectionViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B9CE8429C06181004FD11D /* myCollectionViewCell3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		49B9CE7529C04735004FD11D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49B9CE7829C04735004FD11D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49B9CE7A29C04735004FD11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B9CE8029C04C50004FD11D /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		49B9CE8229C05D9C004FD11D /* myCollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewCell2.swift; sourceTree = "<group>"; };
+		49B9CE8429C06181004FD11D /* myCollectionViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewCell3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				49B9CE6E29C04734004FD11D /* SceneDelegate.swift */,
 				49B9CE7029C04734004FD11D /* ViewController.swift */,
 				49B9CE7229C04734004FD11D /* Main.storyboard */,
+				49B9CE8429C06181004FD11D /* myCollectionViewCell3.swift */,
+				49B9CE8229C05D9C004FD11D /* myCollectionViewCell2.swift */,
+				49B9CE8029C04C50004FD11D /* MyCollectionViewCell.swift */,
 				49B9CE7529C04735004FD11D /* Assets.xcassets */,
 				49B9CE7729C04735004FD11D /* LaunchScreen.storyboard */,
 				49B9CE7A29C04735004FD11D /* Info.plist */,
@@ -103,7 +112,7 @@
 				};
 			};
 			buildConfigurationList = 49B9CE6429C04734004FD11D /* Build configuration list for PBXProject "collectionview project" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -140,6 +149,9 @@
 			files = (
 				49B9CE7129C04734004FD11D /* ViewController.swift in Sources */,
 				49B9CE6D29C04734004FD11D /* AppDelegate.swift in Sources */,
+				49B9CE8529C06181004FD11D /* myCollectionViewCell3.swift in Sources */,
+				49B9CE8329C05D9C004FD11D /* myCollectionViewCell2.swift in Sources */,
+				49B9CE8129C04C50004FD11D /* MyCollectionViewCell.swift in Sources */,
 				49B9CE6F29C04734004FD11D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
